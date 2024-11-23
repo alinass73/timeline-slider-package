@@ -29,7 +29,7 @@ Add the CSS file in your HTML or import it in your JS:
 import 'timeline-slider/css';
 
 Or:
-````html
+
 <link rel="stylesheet" href="node_modules/timeline-slider/css/main.css">
 
 Import and use the TimeLineSlider class:
@@ -37,7 +37,7 @@ Import and use the TimeLineSlider class:
 import TimeLineSlider from 'timeline-slider';
 
 **there are defult values but there is an example:**
-````javascript
+
 const timeLineSlider = new TimeLineSlider();
 timeLineSlider.setStartEnd(1950, 2020); 
 timeLineSlider.setStep(1);             
@@ -48,28 +48,25 @@ timeLineSlider.setSpecialStep(10);
 Defines the start and end years for the timeline.
 Example:
 
-```javascript
+
 timeLineSlider.setStartEnd(1900, 2023);
 
 - **setStep(step)**
 Sets the interval between years on the timeline.
 Example:
 
-```javascript
 timeLineSlider.setStep(5);
 
 - **setSpecialStep(specialStep)**
 Highlights specific years based on a custom interval.
 Example:
 
-```javascript
 timeLineSlider.setSpecialStep(10); 
 
 - **setActiveSlideClass(className)**
 Sets the CSS class for the active year.
 Example:
 
-```javascript
 timeLineSlider.setActiveSlideClass('highlight');
  
 ## Styling  🎨
