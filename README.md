@@ -16,12 +16,13 @@ A fully customizable, draggable timeline component for your web applications. Yo
 ## Installation 🛠️
 
 Install the package via NPM:
-    npm install timeline-slider
+   ** npm install timeline-slider **
+
 ## usage📖
 Import and Initialize
 Include the CSS (either manually or dynamically):
 
-Manual Import:
+### Manual Import:
 Add the CSS file in your HTML or import it in your JS:
 
 import 'timeline-slider/css';
@@ -65,7 +66,7 @@ timeLineSlider.setSpecialStep(10);
 Sets the CSS class for the active year.
 Example:
 
-timeLineSlider.setActiveSlideClass('highlight');
+timeLineSlider.setActiveSlideClass('active');
  
 ## Styling  🎨
 Customize the appearance of the timeline using the provided CSS classes:
@@ -73,6 +74,6 @@ Customize the appearance of the timeline using the provided CSS classes:
 ### Key Classes:
 - .one-line :- Regular timeline markers.
 - .specifline:- Highlighted markers for special steps.
-- .actor:- your custom activeSlideClass) - The currently selected year marker.
+- .actor:- your custom activeSlideClass - The currently selected year marker.
 
 Modify these styles in main.css to match your design.
