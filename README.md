@@ -1,5 +1,3 @@
-# timeline-slider-package
-# timeline-slider-package
 # TimeLineSlider 📅  
 
 A fully customizable, draggable timeline component for your web applications. You can set a range of years, customize the step intervals, and highlight special milestones. TimeLineSlider makes creating interactive timelines easy and beautiful.
@@ -73,13 +71,11 @@ timeLineSlider.setActiveSlideClass('highlight');
 Customize the appearance of the timeline using the provided CSS classes:
 
 ### Key Classes:
-**.one-line **- Regular timeline markers.
-**.specific-line **- Highlighted markers for special steps.
-**.active **(or your custom activeSlideClass) - The currently selected year marker.
-**.dragging **- Applied while dragging the slider.
+- **.one-line **- Regular timeline markers.
+- **.specific-line **- Highlighted markers for special steps.
+- **.active **(or your custom activeSlideClass) - The currently selected year marker.
+- **.dragging **- Applied while dragging the slider.
 Modify these styles in main.css to match your design.
-
-
 
 ```bash
 npm install timeline-slider
